@@ -1,10 +1,10 @@
 ## [ICANN Lookup](https://lookup.icann.org/en/lookup)
 
-ICANN Lookup (WHOIS/RDAP Lookup)
-This tool integrates ICANN's Lookup service, enabling users to query domain name registration details using the WHOIS and RDAP protocols. 
-ICANN Lookup offers real-time access to domain registrar data, ownership info, contact details, and registration timelines, which are essential for internet transparency and accountability.
+**ICANN Lookup (WHOIS/RDAP Lookup)**
+ICANN's Lookup service enables users to query domain name registration details using the WHOIS and RDAP protocols. 
+This tool provides real-time access to domain registrar data, ownership information, contact details, and registration timelines, which are crucial for internet transparency and accountability.
 
-Use Cases in Cybersecurity:
+**Use Cases in Cybersecurity:**
 
 Investigating suspicious domain names for signs of phishing or fraud.
 
