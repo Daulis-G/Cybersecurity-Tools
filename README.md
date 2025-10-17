@@ -18,7 +18,6 @@ This repository is curated for personal reference and team collaboration in cybe
 
 - Browse folders and tools
 - Follow the README or tool-specific markdown for setup
-- Suggest new tools or contribute improvements via pull requests
 
 ## Collaboration & Contributions
 
@@ -26,6 +25,5 @@ This repository is curated for personal reference and team collaboration in cybe
 - Submit pull requests with documented additions, fixes, and patches
 - All contributions will be reviewed for clarity and relevance
 
-  ---
 
-Happy hacking, and may your toolkit always be ready for competition!
+## Happy hacking, and may your toolkit always be ready for competition!
