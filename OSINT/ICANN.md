@@ -1,6 +1,6 @@
 ## [ICANN Lookup](https://lookup.icann.org/en/lookup)
 
-**ICANN Lookup (WHOIS/RDAP Lookup)**
+**ICANN Lookup (WHOIS/RDAP)**
 
 ICANN's Lookup service enables users to query domain name registration details using the WHOIS and RDAP protocols. 
 This tool provides real-time access to domain registrar data, ownership information, contact details, and registration timelines, which are crucial for internet transparency and accountability.
