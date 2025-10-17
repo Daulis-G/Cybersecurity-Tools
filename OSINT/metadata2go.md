@@ -1,4 +1,5 @@
-## Tool: Metadata2Go.com
+## [Metadata2Go](https://www.metadata2go.com)
+
 
 **Metadata2Go** is a free, web-based tool for extracting and analyzing hidden metadata from images, documents, audio files, and other file types. It’s perfect for quick file investigations without having to install software.
 
