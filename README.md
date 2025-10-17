@@ -26,4 +26,16 @@ This repository is curated for personal reference and team collaboration in cybe
 - All contributions will be reviewed for clarity and relevance
 
 
-## Happy hacking, and may your toolkit always be ready for competition!
+## TABLE OF CONTENTS
+
+[OSINT](OSINT/)  
+[Cryptography](Cryptography/)  
+[Password Cracking](Password%20Cracking/)  
+[Forensics](Forensics/)  
+[Log Analysis](Log%20Analysis/)  
+[Network Traffic Analysis](Network%20Traffic%20Analysis/)  
+[Scanning & Reconnaissance](Scanning%20%26%20Reconnaissance/)  
+[Web Application Exploitation](Web%20Application%20Exploitation/)  
+[Wireless Access Exploitation](Wireless%20Access%20Exploitation/)  
+[Enumeration & Exploitation](Enumeration%20%26%20Exploitation/)
+
