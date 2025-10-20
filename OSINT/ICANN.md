@@ -5,7 +5,7 @@
 ICANN's Lookup service enables users to query domain name registration details using the WHOIS and RDAP protocols. 
 This tool provides real-time access to domain registrar data, ownership information, contact details, and registration timelines, which are crucial for internet transparency and accountability.
 
-**Use Cases in Cybersecurity:**
+## **Use Cases**
 
 - Investigating suspicious domain names for signs of phishing or fraud.
 
