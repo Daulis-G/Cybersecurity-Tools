@@ -5,17 +5,17 @@ It runs entirely in your browser, meaning your data stays local and secure.
 
 ## How to use
 
-Drag and Drop: Simply drag your file or paste text into the input box. CyberChef can handle files up to about 2GB (browser-dependent).
+- Simply drag your file or paste text into the input box.
 
-Choose Operations: From hundreds of available operations (encoding, encryption, parsing, hashing, etc.), select them and combine into a “recipe.”
+- Choose Operations: (encoding, encryption, parsing, hashing, etc.), select them and combine into a “recipe.”
 
-Run the Recipe: The operations are applied in sequence to your input data, producing output instantly.
+- "Bake" the Recipe.
 
-Magic Feature: Use the 'Magic' operation to automatically detect encoding types and suggest appropriate operations.
+  -Magic Feature: Use the 'Magic' operation to automatically detect encoding types and suggest appropriate operations.
 
-Help: Hover over any feature and press F1 for contextual assistance.
+  -Help: Hover over any feature and press F1 for contextual assistance.
 
-No installation or advanced knowledge is required—just use your browser.
+
 
 ## Use Cases
 
