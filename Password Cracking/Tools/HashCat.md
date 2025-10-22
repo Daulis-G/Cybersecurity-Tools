@@ -6,7 +6,7 @@ If you are on a Kali Linux machine, this tool usually comes pre-installed.
 
 ---
 
-**⚠️ YOU WILL NEED WORDLISTS**
+**⚠️ YOU WILL NEED WORDLISTS ⚠️**
 
 ---
 
@@ -303,4 +303,4 @@ hashcat -m 0 -a 0 target_hash.txt /usr/share/wordlists/rockyou.txt -r /usr/share
 
 ---
 
-**Happy Ethical Hacking! 🔐**
+
