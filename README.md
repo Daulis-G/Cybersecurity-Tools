@@ -12,9 +12,7 @@
 
 ---
 
-### 🎯 **Elevator Pitch**
-
-*A carefully curated collection of powerful cybersecurity tools, scripts, and frameworks designed for rapid deployment in competitions, CTF challenges, and real-world security scenarios. Built by practitioners, for practitioners.*
+*A carefully curated collection of powerful cybersecurity tools, scripts, and frameworks designed for rapid deployment in competitions, CTF challenges, and real-world security scenarios.*
 
 </div>
 
@@ -22,17 +20,13 @@
 
 ## 👋 Welcome, Security Enthusiast!
 
-Welcome to your new favorite cybersecurity resource hub! Whether you're a seasoned red teamer, a curious blue team defender, or a CTF enthusiast looking to sharpen your skills, this repository has something for you. Dive in, explore the tools, and level up your security game! 🚀
+Welcome to your new favorite cybersecurity resource hub! Whether you're a seasoned red teamer, a curious blue team defender, or a CTF enthusiast looking to sharpen your skills, this repository has something for you. Dive in, explore the tools, and level up your security game!
 
 > **💡 Pro Tip:** Bookmark this repo and star it for quick access during competitions!
 
 ---
 
 ## 📚 TABLE OF CONTENTS
-
-<table>
-<tr>
-<td width="50%">
 
 ### 🔍 **Reconnaissance & Analysis**
 - 🕵️ [OSINT](OSINT/)
@@ -46,23 +40,16 @@ Welcome to your new favorite cybersecurity resource hub! Whether you're a season
 - 📡 [Wireless Access Exploitation](Wireless%20Access%20Exploitation/)
 - ⚡ [Enumeration & Exploitation](Enumeration%20%26%20Exploitation/)
 
-</td>
-<td width="50%">
-
 ### 🔐 **Defense & Analysis**
 - 🔍 [Forensics](Forensics/)
 - 🔒 [Cryptography](Cryptography/)
 
 ### 🎯 **Quick Links**
-- [Purpose](#-purpose)
-- [Getting Started](#-getting-started)
-- [How to Use](#-how-to-use)
-- [Collaboration](#-collaboration--contributions)
-- [Suggestions](#-improvement-suggestions)
-
-</td>
-</tr>
-</table>
+- 📌 [Purpose](#-purpose)
+- 🚀 [Getting Started](#-getting-started)
+- 💻 [How to Use](#-how-to-use)
+- 🤝 [Collaboration](#-collaboration--contributions)
+- 💡 [Suggestions](#-improvement-suggestions)
 
 ---
 
@@ -71,7 +58,7 @@ Welcome to your new favorite cybersecurity resource hub! Whether you're a season
 This repository exists to:
 
 | Goal | Description |
-|------|-------------|
+|---|---|
 | 🍏 **Organize** | Centralize powerful cybersecurity tools, scripts, and frameworks for rapid deployment and research |
 | 🤝 **Collaborate** | Facilitate easy sharing and onboarding—perfect for teammates, students, or portfolio reviewers |
 | 🏆 **Compete** | Streamline preparation and execution in cybersecurity competitions, CTFs, and bug bounty activities |
@@ -126,7 +113,7 @@ We ❤️ contributions from the community!
 ### How to Contribute:
 
 | Method | Description |
-|--------|-------------|
+|---|---|
 | 🐛 **Issues** | Open issues for questions, bugs, or new tool requests |
 | 🔀 **Pull Requests** | Submit PRs with documented additions, fixes, and patches |
 | 📝 **Documentation** | Improve existing docs or add tutorials |
@@ -162,13 +149,9 @@ We ❤️ contributions from the community!
 
 ## 📊 Repository Stats
 
-<div align="center">
-
 ![GitHub Stats](https://img.shields.io/github/repo-size/Daulis-G/Cybersecurity-Tools)
 ![Contributors](https://img.shields.io/github/contributors/Daulis-G/Cybersecurity-Tools)
 ![Pull Requests](https://img.shields.io/github/issues-pr/Daulis-G/Cybersecurity-Tools)
-
-</div>
 
 ---
 
@@ -176,11 +159,9 @@ We ❤️ contributions from the community!
 
 This project is open source and available for educational and professional use. Please use these tools responsibly and ethically.
 
-⚠️ **Disclaimer:** These tools are for authorized security testing only. Always obtain proper permission before testing any system you don't own.
+⚠️**Disclaimer:** These tools are for authorized security testing only. Always obtain proper permission before testing any system you don't own.
 
 ---
-
-<div align="center">
 
 ### 🌟 If you find this repository helpful, please give it a star! 🌟
 
@@ -190,6 +171,4 @@ This project is open source and available for educational and professional use. 
 
 ---
 
-[⬆ Back to Top](#️-cybersecurity-tools-arsenal-)
-
-</div>
+[⬆ Back to Top](#%EF%B8%8F-cybersecurity-tools-arsenal-)
