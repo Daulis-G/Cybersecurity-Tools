@@ -1,27 +1,33 @@
 ## [Pretty Good Privacy (PGP)](https://en.wikipedia.org/wiki/Pretty_Good_Privacy)
+Permalink: [Pretty Good Privacy (PGP)](#pretty-good-privacy-pgphttpsenwikipediaorgwikipretty_good_privacy)
 
-### Tool Name and Brief Description
 PGP (Pretty Good Privacy) is a cryptographic system used for encrypting and signing data, ensuring secure communication and verifying authenticity. PGP Lookup refers to public keyserver databases that allow users to search for, retrieve, and verify public PGP keys associated with email addresses or user IDs. These keyservers enable OSINT researchers to discover email addresses, verify identities, track digital footprints, and investigate communication patterns. Public PGP keys often contain metadata like creation dates, email addresses, associated identities, and key signatures that can reveal relationships between individuals.
 
-### Requirements
+**Requirements:**
 - Web browser (for online keyserver lookups)
 - Internet connection
-  
----
 
-### Usage Examples and Common Commands
-
-**Web-Based Keyserver Lookups:**
-1. Navigate to a public keyserver:
+**Setup:**
+1. Navigate to a public PGP keyserver:
    - http://keyserver.ubuntu.com/
    - http://keys.openpgp.org/
    - http://pgp.mit.edu/
-2. Enter search query (email address, key ID, or name)
-3. Review results for public keys, email addresses, and metadata
+2. The tool is immediately ready to use
 
----
+## Usage Examples and Common Commands
+Permalink: [Usage Examples and Common Commands](#usage-examples-and-common-commands)
 
-**Common OSINT Use Cases:**
+**Basic Workflow:**
+1. **Navigate to keyserver** - Choose from Ubuntu Keyserver, OpenPGP, or MIT PGP
+2. **Enter search query** - Input email address, key ID, or name
+3. **Review results** - Examine:
+   - Public keys associated with the query
+   - Email addresses in key metadata
+   - Key creation dates and expiration
+   - User IDs (UIDs) and signatures
+   - Key fingerprints for verification
+
+**Common Use Cases:**
 - Discover email addresses associated with a target
 - Find alternative identities/usernames in key metadata
 - Track key creation dates to establish timeline
@@ -30,9 +36,8 @@ PGP (Pretty Good Privacy) is a cryptographic system used for encrypting and sign
 - Investigate developer identities in open-source projects
 - Correlate keys across different platforms
 
----
-
 ### Links to Official Documentation and Tutorials
+Permalink: [Links to Official Documentation and Tutorials](#links-to-official-documentation-and-tutorials)
 
 **PGP Keyservers:**
 - **Ubuntu Keyserver:** http://keyserver.ubuntu.com/
@@ -53,65 +58,14 @@ PGP (Pretty Good Privacy) is a cryptographic system used for encrypting and sign
 - **Key Signing Party Guide:** https://www.debian.org/events/keysigning
 - **GPG Best Practices:** https://riseup.net/en/security/message-security/openpgp/best-practices
 
----
-
 ### Tips & Tricks for Competition Scenarios
+Permalink: [Tips & Tricks for Competition Scenarios](#tips--tricks-for-competition-scenarios)
 
-1. **Email Discovery:**
-   - PGP keys often contain multiple email addresses (UIDs)
-   - Search by partial names to find all associated keys
-   - Look for typo variations or similar names
-   - Check key comments for additional information
-
-2. **Metadata Mining:**
-   - Key creation dates reveal when a person became security-conscious
-   - Expiration dates show activity/awareness levels
-   - Key type/size indicates technical sophistication
-   - Sub-keys show compartmentalization practices
-
-3. **Signature Analysis (Web of Trust):**
-   - View who has signed a key: `gpg --list-sigs <key-id>`
-   - Signatures reveal social/professional connections
-   - Mutual signatures indicate close relationships
-   - Absence of signatures may indicate an isolated/new user
-
-4. **Username Correlation:**
-   - Usernames in key IDs often match other platforms
-   - Search username from PGP key on GitHub, forums, social media
-   - Key comments sometimes contain handles or nicknames
-
-5. **Historical Lookup:**
-   - Use archive.org to check old keyserver snapshots
-   - Keys may have been deleted, but captured in archives
-   - Historical versions show changes in identity/email
-
-6. **Multiple Keyserver Strategy:**
-   - Different key servers may have different keys for the same person
-   - Try ubuntu, MIT, and openpgp.org for a complete picture
-   - Some keyservers federate, others are independent
-
-7. **GitHub/GitLab Integration:**
-   - Developers often use PGP to sign commits
-   - GitHub shows verified commits with key IDs
-   - Search key ID on keyservers to find email/identity
-   - Check `.gnupg` or `.gpg` in public repositories
-
-8. **Competition Speed Tips:**
-   - Bookmark keyserver URLs for quick access
-   - Use the browser search feature to find emails on the keyserver results page
-   - Keep common commands in a text file for copy-paste
-
-9. **Photo IDs in Keys:**
-    - Some PGP keys contain embedded photos
-    - Photos can be extracted for reverse image search
-    - Rare but valuable when found
-
-10. **Revocation Investigation:**
-    - Revoked keys indicate compromised/retired identities
-    - May indicate a security incident or an identity change
-
-11. **Cross-Reference with Other OSINT:**
-    - Email from PGP → search in breach databases (Have I Been Pwned)
-    - Username from PGP → search on Sherlock or WhatsMyName
-    - Name from PGP → search on LinkedIn, company directories
-    - Key creation date → correlate with account creation dates elsewhere
+1. **Email Discovery:** PGP keys often contain multiple email addresses (UIDs) - search by partial names to find all associated keys and look for typo variations or similar names
+2. **Key Signatures:** Check who signed a key to identify trusted relationships and professional/social networks
+3. **Metadata Analysis:** Key creation dates can establish when someone started using PGP, revealing activity timelines
+4. **Cross-Platform Search:** Try multiple keyservers as they may have different keys or metadata for the same person
+5. **Historical Data:** Some keyservers retain old/revoked keys - useful for tracking identity changes or compromised keys
+6. **Developer Investigation:** Many open-source developers publish keys - link GitHub commits to real identities
+7. **Username Correlation:** Key comments and UIDs often contain usernames used on other platforms
+8. **Email Pattern Recognition:** Look for organizational email patterns (firstname.lastname@company.com) to identify other employees
