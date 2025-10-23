@@ -1,6 +1,6 @@
 # 🔓 John the Ripper - The OG Password Cracker
 
-Welcome to the world of John the Ripper, the legendary password cracking tool that's been breaking passwords since 1996! Whether you're a pentester, security researcher, or just curious about password security, John (as the cool kids call it) is your trusty sidekick for testing password strength and recovering lost credentials.
+John the Ripper, the legendary password cracking tool that's been breaking passwords since 1996! Whether you're a penetration tester, security researcher, or simply curious about password security, John is your trusted sidekick for testing password strength and recovering lost credentials.
 
 ## 📋 Overview
 
@@ -10,16 +10,16 @@ John uses multiple attack modes including dictionary attacks, brute-force, and i
 
 ## ✨ Features
 
-- 🎯 **Multi-Platform Support** - Runs on Windows, Linux, macOS, and many Unix variants
-- 🔍 **Auto-Detection** - Automatically detects hash types for hassle-free cracking
-- ⚡ **Multiple Attack Modes** - Dictionary, brute-force, incremental, and hybrid attacks
-- 🚀 **High Performance** - Optimized for speed with multi-core CPU support
-- 🎨 **Customizable Rules** - Create custom mangling rules to modify wordlists
-- 📦 **Extensive Hash Support** - Cracks 500+ hash and cipher types
-- 🔌 **Community Jumbo Patch** - Enhanced version with even more formats and features
-- 💾 **Session Management** - Save and resume cracking sessions
-- 🎭 **Wordlist Mode** - Use custom dictionaries for targeted attacks
-- 🧩 **External Modes** - Write your own cracking modes in C or scripting languages
+-  **Multi-Platform Support** - Runs on Windows, Linux, macOS, and many Unix variants
+-  **Auto-Detection** - Automatically detects hash types for hassle-free cracking
+-  **Multiple Attack Modes** - Dictionary, brute-force, incremental, and hybrid attacks
+-  **High Performance** - Optimized for speed with multi-core CPU support
+-  **Customizable Rules** - Create custom mangling rules to modify wordlists
+-  **Extensive Hash Support** - Cracks 500+ hash and cipher types
+-  **Community Jumbo Patch** - Enhanced version with even more formats and features
+-  **Session Management** - Save and resume cracking sessions
+-  **Wordlist Mode** - Use custom dictionaries for targeted attacks
+-  **External Modes** - Write your own cracking modes in C or scripting languages
 
 ## 💻 Installation
 
@@ -64,15 +64,6 @@ cd john/src
 
 # Run John
 john --test
-```
-
-### Arch Linux
-```bash
-# Install from AUR
-yay -S john
-
-# Or use the Jumbo version
-yay -S john-git
 ```
 
 ## 🎮 How To Use
@@ -242,23 +233,6 @@ John the Ripper supports a massive array of hash types. Here are some of the mos
    john --format=nt --wordlist=rockyou.txt ntlm.txt
    ```
 
-### Tutorial 4: Creating Custom Wordlists
-
-1. **Use John's built-in wordlist generator**
-   ```bash
-   john --stdout --incremental=Lower | head -1000000 > custom.txt
-   ```
-
-2. **Generate based on specific charset**
-   ```bash
-   john --stdout --incremental=Digits > numbers.txt
-   ```
-
-3. **Apply rules to existing wordlist**
-   ```bash
-   john --wordlist=base.txt --rules --stdout > mutated.txt
-   ```
-
 ## 💡 Tips & Tricks
 
 ### Performance Optimization
@@ -309,4 +283,3 @@ John the Ripper supports a massive array of hash types. Here are some of the mos
 
 ---
 
-*Remember: John the Ripper is a powerful tool for security testing and password auditing. Always use it responsibly and only on systems you have explicit permission to test!*
