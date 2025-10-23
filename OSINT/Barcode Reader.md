@@ -2,7 +2,9 @@
 
 Barcode Reader by Inlite Research is a free online tool that extracts barcode data directly from images and documents within your web browser, eliminating the need for software installation. It supports multiple barcode formats, including 1D barcodes (Code 39, Code 128), QR codes, PDF417, DataMatrix, postal barcodes, and even driver's licenses and ID cards. This makes it valuable for OSINT investigations involving document analysis, QR code decoding, and identity verification.
 
-## Requirements
+---
+
+ Requirements
 - Web browser (Chrome, Firefox, Safari, Edge)
 - Internet connection
 - No software installation required (browser-based tool)
@@ -33,7 +35,7 @@ Barcode Reader by Inlite Research is a free online tool that extracts barcode da
 - Read driver's license barcodes for verification
 - Process postal tracking barcodes
 - Extract data from scanned multi-page PDFs
-
+---
 ### Links to Official Documentation and Tutorials
 - **Official Tool:** https://online-barcode-reader.inliteresearch.com/
 - **Inlite Research Homepage:** https://www.inliteresearch.com/
