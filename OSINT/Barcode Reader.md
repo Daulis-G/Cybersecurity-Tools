@@ -1,20 +1,17 @@
 ## [Barcode Reader](https://online-barcode-reader.inliteresearch.com/)
 
-### Tool Name and Brief Description
-Barcode Reader by Inlite Research is a free online tool that extracts barcode data from images and documents directly in your web browser without requiring any software installation. It supports multiple barcode formats including 1D barcodes (Code 39, Code 128), QR codes, PDF417, DataMatrix, postal barcodes, and even driver's licenses and ID cards. This makes it valuable for OSINT investigations involving document analysis, QR code decoding, and identity verification.
+Barcode Reader by Inlite Research is a free online tool that extracts barcode data directly from images and documents within your web browser, eliminating the need for software installation. It supports multiple barcode formats, including 1D barcodes (Code 39, Code 128), QR codes, PDF417, DataMatrix, postal barcodes, and even driver's licenses and ID cards. This makes it valuable for OSINT investigations involving document analysis, QR code decoding, and identity verification.
 
-### Installation Instructions
-**Dependencies:**
+## Requirements
 - Web browser (Chrome, Firefox, Safari, Edge)
 - Internet connection
 - No software installation required (browser-based tool)
 
 **Setup:**
 1. Navigate to https://online-barcode-reader.inliteresearch.com/
-2. Tool is immediately ready to use
-3. For offline/bulk processing, consider Inlite's desktop SDK (separate download)
+2. The tool is immediately ready to use
 
-### Usage Examples and Common Commands
+## Usage Examples and Common Commands
 **Basic Workflow:**
 1. **Select barcode type** - Choose from dropdown:
    - 1D barcodes (Code 39, Code 128, etc.)
@@ -29,7 +26,7 @@ Barcode Reader by Inlite Research is a free online tool that extracts barcode da
    - Max file size: 12 MB
 
 3. **Process** - Click to decode barcode
-
+---
 **Common Use Cases:**
 - Extract serial numbers from product images
 - Decode QR codes from screenshots
@@ -58,4 +55,5 @@ Barcode Reader by Inlite Research is a free online tool that extracts barcode da
 7. **Screenshot barcodes:** Use browser screenshot tools or Snipping Tool to capture barcodes from videos/documents
 8. **PDF417 on IDs:** Common on government IDs and boarding passes - contains extensive metadata
 9. **Combine with OCR:** If barcode fails, use OCR tools on visible text near barcode
-10. **Privacy awareness:** Be cautious sharing decoded personal data during team competitions
+10. **Privacy awareness:** Be cautious when sharing decoded personal data during team competitions
+---
