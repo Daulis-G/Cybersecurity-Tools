@@ -1,7 +1,8 @@
 ## [Pretty Good Privacy (PGP)](https://en.wikipedia.org/wiki/Pretty_Good_Privacy)
-Permalink: [Pretty Good Privacy (PGP)](#pretty-good-privacy-pgphttpsenwikipediaorgwikipretty_good_privacy)
 
 PGP (Pretty Good Privacy) is a cryptographic system used for encrypting and signing data, ensuring secure communication and verifying authenticity. PGP Lookup refers to public keyserver databases that allow users to search for, retrieve, and verify public PGP keys associated with email addresses or user IDs. These keyservers enable OSINT researchers to discover email addresses, verify identities, track digital footprints, and investigate communication patterns. Public PGP keys often contain metadata like creation dates, email addresses, associated identities, and key signatures that can reveal relationships between individuals.
+
+---
 
 **Requirements:**
 - Web browser (for online keyserver lookups)
@@ -14,8 +15,9 @@ PGP (Pretty Good Privacy) is a cryptographic system used for encrypting and sign
    - http://pgp.mit.edu/
 2. The tool is immediately ready to use
 
+---
+
 ## Usage Examples and Common Commands
-Permalink: [Usage Examples and Common Commands](#usage-examples-and-common-commands)
 
 **Basic Workflow:**
 1. **Navigate to keyserver** - Choose from Ubuntu Keyserver, OpenPGP, or MIT PGP
@@ -36,8 +38,9 @@ Permalink: [Usage Examples and Common Commands](#usage-examples-and-common-comma
 - Investigate developer identities in open-source projects
 - Correlate keys across different platforms
 
+---
+
 ### Links to Official Documentation and Tutorials
-Permalink: [Links to Official Documentation and Tutorials](#links-to-official-documentation-and-tutorials)
 
 **PGP Keyservers:**
 - **Ubuntu Keyserver:** http://keyserver.ubuntu.com/
@@ -59,7 +62,6 @@ Permalink: [Links to Official Documentation and Tutorials](#links-to-official-do
 - **GPG Best Practices:** https://riseup.net/en/security/message-security/openpgp/best-practices
 
 ### Tips & Tricks for Competition Scenarios
-Permalink: [Tips & Tricks for Competition Scenarios](#tips--tricks-for-competition-scenarios)
 
 1. **Email Discovery:** PGP keys often contain multiple email addresses (UIDs) - search by partial names to find all associated keys and look for typo variations or similar names
 2. **Key Signatures:** Check who signed a key to identify trusted relationships and professional/social networks
