@@ -1,6 +1,6 @@
 # 🔓 OphCrack
-## 🔍 Overview
 OphCrack is a Windows password cracker based on rainbow tables. It's one of the most efficient implementations of the rainbow table technique for password recovery.
+
 ## ✨ Key Features
 - **Free and Open Source**: Available at no cost
 - **Cross-Platform**: Works on Windows, Linux, and macOS
@@ -8,7 +8,9 @@ OphCrack is a Windows password cracker based on rainbow tables. It's one of the 
 - **GUI and CLI**: User-friendly interface plus command-line options
 - **Rainbow Tables**: Uses pre-computed hash chains
 - **Real-time Graphs**: Visual representation of cracking progress
+  
 ## 💾 Installation
+
 ### Windows
 ```bash
 # Download from official site
@@ -33,6 +35,7 @@ sudo make install
 ```bash
 brew install ophcrack
 ```
+
 ## 🎯 Usage Examples
 ### Basic GUI Usage
 1. Launch OphCrack
@@ -57,5 +60,3 @@ wget https://ophcrack.sourceforge.io/tables.php
 # Extract
 unzip tables_vista_free.zip -d ~/ophcrack/tables/
 ```
-### Strategy
-1. **Hybrid Approach**
