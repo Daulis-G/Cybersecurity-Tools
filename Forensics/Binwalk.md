@@ -18,12 +18,6 @@ sudo apt install binwalk
 pip install binwalk
 ```
 
-**Linux (with dependencies for extraction):**
-```bash
-sudo apt install binwalk python3-pip
-sudo pip3 install binwalk
-```
-
 **macOS:**
 ```bash
 # Using Homebrew
@@ -46,7 +40,7 @@ sudo apt update && sudo apt install binwalk
 binwalk --help
 ```
 
-## ⚡ Basic Usage
+## ⚡ How To Use
 
 Here are the essential Binwalk commands to get you started:
 
