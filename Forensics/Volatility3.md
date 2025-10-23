@@ -7,14 +7,14 @@ Volatility 3 is a completely rewritten version of the popular Volatility memory 
 
 ## ✨ Key Features
 
-- 🚀 **Modern Architecture**: Built from scratch with Python 3 for better performance and maintainability
-- 🖥️ **Multi-Platform Support**: Analyze memory dumps from Windows, Linux, and macOS systems
-- 🔌 **Plugin-Based Design**: Extensible framework with numerous built-in plugins and easy custom plugin development
-- 📊 **Multiple Output Formats**: Export results in JSON, CSV, and other formats for further analysis
-- 🔍 **Advanced Analysis**: Deep inspection of processes, network connections, registry keys, and malware artifacts
-- 🧩 **Symbol Tables**: Automatic symbol table generation for improved analysis accuracy
-- 🎨 **User-Friendly**: Improved command-line interface with better error messages and help documentation
-- 🔐 **Forensic Integrity**: Non-invasive analysis that preserves evidence integrity
+-  **Modern Architecture**: Built from scratch with Python 3 for better performance and maintainability
+-  **Multi-Platform Support**: Analyze memory dumps from Windows, Linux, and macOS systems
+-  **Plugin-Based Design**: Extensible framework with numerous built-in plugins and easy custom plugin development
+-  **Multiple Output Formats**: Export results in JSON, CSV, and other formats for further analysis
+-  **Advanced Analysis**: Deep inspection of processes, network connections, registry keys, and malware artifacts
+-  **Symbol Tables**: Automatic symbol table generation for improved analysis accuracy
+-  **User-Friendly**: Improved command-line interface with better error messages and help documentation
+-  **Forensic Integrity**: Non-invasive analysis that preserves evidence integrity
 
 ---
 
@@ -241,27 +241,3 @@ vol -f user.dmp windows.clipboard
 - 📺 [Video Tutorials](https://www.youtube.com/results?search_query=volatility+3+memory+forensics)
 
 ---
-
-## ⚖️ Ethical Considerations
-
-### Legal Authorization
-- 🔒 Only analyze memory dumps from systems you **own** or have **explicit authorization** to investigate
-- 📋 Obtain proper **legal approvals** and **chain of custody** documentation for forensic investigations
-- 🏢 Follow your organization's **incident response** policies and procedures
-- ⚖️ Ensure compliance with **data protection laws** (GDPR, CCPA, etc.)
-
-### Professional Responsibility
-- 🛡️ Use Volatility for **legitimate forensics**, incident response, and security research only
-- 🤐 Maintain **confidentiality** of sensitive information discovered during analysis
-- 📊 Document findings accurately and avoid **evidence tampering**
-- 🎓 Contribute to the community through **responsible disclosure** of vulnerabilities
-
-### Privacy and Data Protection
-- 🔐 Memory dumps may contain **sensitive personal data** - handle with care
-- 🗑️ Securely **wipe or encrypt** memory dumps after analysis is complete
-- 👥 Limit access to authorized personnel only
-- 📝 Create **audit trails** for all forensic activities
-
----
-
-**Remember**: Memory forensics is a powerful capability that should be used responsibly and ethically. Always prioritize privacy, obtain proper authorization, and follow established digital forensics best practices! 🎯🔍
