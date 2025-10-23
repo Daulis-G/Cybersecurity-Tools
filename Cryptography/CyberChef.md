@@ -3,13 +3,13 @@ A powerful web-based data analysis and transformation toolkit. CyberChef is ofte
 
 ---
 
-Requirements:
+**Requirements:**
 - Modern web browser (Chrome, Firefox, Edge, Safari)
 - No installation or account required
 - JavaScript enabled
 - Internet connection (for online version) or local deployment option available
 
-Setup:
+**Setup:**
 1. Navigate to https://gchq.github.io/CyberChef/ in your web browser
 2. For offline use, download the standalone version from the GitHub repository
 3. The interface loads automatically with three main sections: Operations, Recipe, and Input/Output
