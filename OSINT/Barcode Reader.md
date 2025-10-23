@@ -28,7 +28,7 @@ Barcode Reader by Inlite Research is a free online tool that extracts barcode da
    - Max file size: 12 MB
 
 3. **Process** - Click to decode barcode
----
+
 **Common Use Cases:**
 - Extract serial numbers from product images
 - Decode QR codes from screenshots
