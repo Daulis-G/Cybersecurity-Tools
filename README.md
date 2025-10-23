@@ -24,14 +24,21 @@
 
 </div>
 
-| 🔍 **Reconnaissance & Analysis** | 🔓 **Exploitation & Attack** | 🔐 **Defense & Analysis** |
-|:---:|:---:|:---:|
-| [OSINT](OSINT/) • [Scanning & Reconnaissance](Scanning%20%26%20Reconnaissance/) | [Web Application Exploitation](Web%20Application%20Exploitation/) • [Password Cracking](Password%20Cracking/) | [Forensics](Forensics/) • [Cryptography](Cryptography/) |
-| [Network Traffic Analysis](Network%20Traffic%20Analysis/) • [Log Analysis](Log%20Analysis/) | [Wireless Access Exploitation](Wireless%20Access%20Exploitation/) • [Enumeration & Exploitation](Enumeration%20%26%20Exploitation/) | |
+### 🔍 **Reconnaissance & Analysis**
+-  [OSINT](OSINT/)                                                                                                                                  
+-  [Scanning & Reconnaissance](Scanning%20%26%20Reconnaissance/)
+-  [Network Traffic Analysis](Network%20Traffic%20Analysis/)
+-  [Log Analysis](Log%20Analysis/)
 
-| 🎯 **Quick Links** |
-|:---:|
-| [Purpose](#-purpose) • [How to Use](#-how-to-use) • [Collaboration](#-collaboration--contributions) • [Suggestions](#-improvement-suggestions) |
+### 🔓 **Exploitation & Attack**
+-  [Web Application Exploitation](Web%20Application%20Exploitation/)
+-  [Password Cracking](Password%20Cracking/)
+-  [Wireless Access Exploitation](Wireless%20Access%20Exploitation/)
+-  [Enumeration & Exploitation](Enumeration%20%26%20Exploitation/)
+
+### 🔐 **Defense & Analysis**
+-  [Forensics](Forensics/)
+-  [Cryptography](Cryptography/)
 
 ---
 
