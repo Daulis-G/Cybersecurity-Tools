@@ -4,7 +4,7 @@ Barcode Reader by Inlite Research is a free online tool that extracts barcode da
 
 ---
 
- Requirements
+ **Requirements**
 - Web browser (Chrome, Firefox, Safari, Edge)
 - Internet connection
 - No software installation required (browser-based tool)
