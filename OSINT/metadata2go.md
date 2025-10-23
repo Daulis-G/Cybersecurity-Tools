@@ -81,4 +81,3 @@ Metadata2Go is a free, browser-based online tool for extracting, viewing, and re
 - **PyPDF2:** https://pypdf2.readthedocs.io/
 - **Mutagen (Audio):** https://mutagen.readthedocs.io/
 
-### 📖 **Tutorials:**
