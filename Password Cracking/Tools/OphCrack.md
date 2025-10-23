@@ -1,120 +1,105 @@
-# OphCrack
+# OphCrack 🔓
 
-OphCrack is a free Windows password cracker based on rainbow tables. It is a very efficient implementation of rainbow tables done by the inventors of the method. It comes with a Graphical User Interface and runs on multiple platforms.
+## Overview 🔍
 
-## Requirements
+OphCrack is a Windows password cracker based on rainbow tables. It's one of the most efficient implementations of the rainbow table technique for password recovery.
 
-- **Operating System**: Windows, Linux, or macOS
-- **Rainbow Tables**: Pre-computed tables for password cracking (can be downloaded separately)
-- **Target**: Windows password hashes (LM and NTLM)
-- **RAM**: Sufficient memory to load rainbow tables (varies by table size)
-- **Bootable Version**: Available as LiveCD for offline password recovery
+## Key Features ✨
 
-## Setup
+- **Free and Open Source**: Available at no cost
+- **Cross-Platform**: Works on Windows, Linux, and macOS
+- **LiveCD Available**: Boot from USB/CD without installation
+- **GUI and CLI**: User-friendly interface plus command-line options
+- **Rainbow Tables**: Uses pre-computed hash chains
+- **Real-time Graphs**: Visual representation of cracking progress
 
-1. **Download OphCrack**
-   ```bash
-   # For Linux/Kali
-   sudo apt-get install ophcrack
-   
-   # Or download from official website
-   # https://ophcrack.sourceforge.io/
-   ```
+## Installation 💾
 
-2. **Download Rainbow Tables**
-   - Visit the OphCrack website to download free rainbow tables
-   - Tables available: Vista Free, XP Free (limited coverage)
-   - Commercial tables available for better coverage
-
-3. **Install Rainbow Tables**
-   - Extract downloaded tables to a directory
-   - Configure OphCrack to point to the tables directory
-
-4. **For LiveCD Method**
-   - Download OphCrack LiveCD ISO
-   - Burn to CD/DVD or create bootable USB
-   - Boot target system from media
-
-## Usage Examples and Common Commands
-
-### Basic Workflow
-
-1. **Launch OphCrack**
-   ```bash
-   ophcrack
-   ```
-
-2. **Load Hashes**
-   - **From SAM file**: Load → Local SAM (requires admin privileges)
-   - **From file**: Load → PWDUMP file (import previously dumped hashes)
-   - **Manual entry**: Load → Single hash
-
-3. **Install Rainbow Tables**
-   - Tables → Install → Select table directory
-   - Choose appropriate tables for hash type
-
-4. **Start Cracking**
-   - Click "Crack" button
-   - Monitor progress in real-time
-   - Results display cracked passwords
-
-### Common Use Cases
-
-**Scenario 1: Crack Local Windows Passwords**
+### Windows
 ```bash
-# Run OphCrack with GUI (as root/admin)
-sudo ophcrack
+# Download from official site
+wget https://ophcrack.sourceforge.io/download.php
 
-# Load → Local SAM
-# Tables → Install (select rainbow tables)
-# Click "Crack"
+# Or use package manager
+choco install ophcrack
 ```
 
-**Scenario 2: Crack from Exported Hash File**
+### Linux
 ```bash
-# First, export hashes using pwdump or fgdump
-# Then load in OphCrack:
-# Load → PWDUMP file → select file
-# Tables → Install
-# Click "Crack"
+# Debian/Ubuntu
+sudo apt-get install ophcrack
+
+# Arch
+sudo pacman -S ophcrack
+
+# From source
+git clone https://gitlab.com/objectifsecurite/ophcrack.git
+cd ophcrack
+./configure
+make
+sudo make install
 ```
 
-**Scenario 3: Using OphCrack LiveCD**
-```
-1. Boot target machine from OphCrack LiveCD
-2. OphCrack automatically launches
-3. It detects and loads SAM file
-4. Automatically starts cracking with included tables
-5. View results on screen
-```
-
-**Scenario 4: Command-Line Usage**
+### macOS
 ```bash
-# Crack hashes from file
-ophcrack -g -d /path/to/tables -t table1:table2 -f hashfile.txt
-
-# Options:
-# -g : disable GUI
-# -d : directory containing tables
-# -t : specify tables to use
-# -f : hash file to crack
+brew install ophcrack
 ```
 
-## Links to Official Documentation and Tutorials
+## Usage Examples 🎯
 
-- **Official Website**: https://ophcrack.sourceforge.io/
-- **Download Page**: https://ophcrack.sourceforge.io/download.php
-- **Rainbow Tables**: https://ophcrack.sourceforge.io/tables.php
-- **Documentation**: https://ophcrack.sourceforge.io/documentation.php
-- **GitHub Repository**: https://gitlab.com/objectifsecurite/ophcrack
-- **Tutorial Videos**: Search "OphCrack tutorial" on YouTube
-- **Kali Linux Tools**: https://www.kali.org/tools/ophcrack/
+### Basic GUI Usage
+1. Launch OphCrack
+2. Click "Load" → "PWDUMP file" or "Local SAM"
+3. Click "Tables" → Select rainbow table directory
+4. Click "Crack" to start the process
 
-## Tips & Tricks for Competition Scenarios
+### Command Line
+```bash
+# Crack from pwdump file
+ophcrack -g -d /path/to/tables/ -t XP -f hashes.txt
+
+# Crack local SAM (requires root/admin)
+sudo ophcrack -g -d /path/to/tables/ -t Vista
+
+# Specify output file
+ophcrack -g -d /tables/ -t XP -f hashes.txt -o results.txt
+```
+
+### LiveCD Usage
+1. Download OphCrack LiveCD ISO
+2. Burn to USB or CD
+3. Boot from media
+4. OphCrack automatically starts and detects Windows partitions
+5. Select partition and begin cracking
+
+## Rainbow Tables 🌈
+
+### Free Tables
+- **XP Free Fast**: ~700MB, alphanumeric passwords ≤14 chars
+- **XP Free Small**: ~380MB, subset of Fast tables
+- **Vista Free**: ~450MB, basic Vista/7/8 passwords
+
+### Paid Tables
+- **XP Special**: ~8GB, extended character set
+- **Vista Special**: ~8GB, comprehensive Vista+ coverage
+- **Better coverage and success rates**
+
+### Downloading Tables
+```bash
+# Create directory structure
+mkdir -p ~/ophcrack/tables
+
+# Download free tables
+wget https://ophcrack.sourceforge.io/tables.php
+
+# Extract
+unzip tables_vista_free.zip -d ~/ophcrack/tables/
+```
+
+## CTF & Competition Tips 💡
 
 ### Quick Wins
-
-1. **Use LiveCD for Speed**
+1. **LiveCD Method**
    - Fastest method for offline attacks
    - No installation needed
    - Automatically detects Windows installations
@@ -133,7 +118,7 @@ ophcrack -g -d /path/to/tables -t table1:table2 -f hashfile.txt
 
 1. **Hybrid Approach**
    - Use OphCrack for initial quick cracks
-   - Switch to Hashcat for remaining hashes
+   - Switch to Hashcat for the remaining hashes
    - OphCrack excels at simple passwords
 
 2. **Table Selection**
@@ -177,13 +162,3 @@ ophcrack -g -d /path/to/tables -t table1:table2 -f hashfile.txt
 - **Missing Dependencies**: Ensure all libraries installed
 - **Permissions**: Need admin/root to access SAM file
 - **Table Path Issues**: Verify correct path to rainbow tables
-
-### Competition Checklist
-
-- [ ] OphCrack installed and tested
-- [ ] Rainbow tables downloaded and configured
-- [ ] LiveCD ISO ready on bootable media
-- [ ] Backup hash extraction tools (pwdump, fgdump)
-- [ ] Alternative cracking tools ready (Hashcat)
-- [ ] Know the target Windows version
-- [ ] Practice full workflow before competition
