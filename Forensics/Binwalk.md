@@ -1,4 +1,4 @@
-# 🛠️ Binwalk: Firmware Analysis Tool
+# 🛠️ Binwalk
 
 ## 📦 What is Binwalk?
 
