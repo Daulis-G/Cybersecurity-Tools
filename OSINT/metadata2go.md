@@ -1,7 +1,8 @@
 ## [Metadata2Go](https://www.metadata2go.com)
-Permalink: [Metadata2Go](#metadata2gohttpswwwmetadata2gocom)
 
 Metadata2Go is a free, browser-based online tool for extracting, viewing, and removing hidden metadata from various file types including images (JPEG, PNG, GIF, TIFF), documents (PDF, DOCX, XLSX, PPTX), audio files (MP3, WAV), and video files. It provides instant access to EXIF data, GPS coordinates, camera information, creation/modification timestamps, author details, and software fingerprints without requiring any software installation. This makes it invaluable for OSINT investigations, digital forensics, privacy auditing, and cybersecurity competitions where rapid metadata analysis is crucial.
+
+---
 
 **Requirements:**
 - Modern web browser (Chrome, Firefox, Safari, Edge)
@@ -15,8 +16,9 @@ Metadata2Go is a free, browser-based online tool for extracting, viewing, and re
 3. No registration or account creation required
 4. Files processed locally in browser (privacy-friendly)
 
+---
+
 ## Usage Examples and Common Commands
-Permalink: [Usage Examples and Common Commands](#usage-examples-and-common-commands)
 
 **Basic Workflow:**
 1. **Select file** - Click "Choose File" or drag & drop
@@ -41,8 +43,9 @@ Permalink: [Usage Examples and Common Commands](#usage-examples-and-common-comma
 - Correlate devices across multiple files
 - Verify image authenticity by checking for editing software
 
+---
+
 ### Links to Official Documentation and Tutorials
-Permalink: [Links to Official Documentation and Tutorials](#links-to-official-documentation-and-tutorials)
 
 **Online Tools:**
 - **Metadata2Go:** https://www.metadata2go.com
@@ -73,7 +76,6 @@ Permalink: [Links to Official Documentation and Tutorials](#links-to-official-do
 - **ExifTool Tutorial:** https://ninedegreesbelow.com/photography/exiftool-commands.html
 
 ### Tips & Tricks for Competition Scenarios
-Permalink: [Tips & Tricks for Competition Scenarios](#tips--tricks-for-competition-scenarios)
 
 1. **GPS Coordinates Are Gold:** If GPS data exists in an image, you can pinpoint the exact location. Use Google Maps/Earth to visualize coordinates
 2. **Timestamps for Timeline:** Creation date vs. modification date can reveal when a file was captured vs. when it was edited (tampering indicator)
