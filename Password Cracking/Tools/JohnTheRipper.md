@@ -62,7 +62,7 @@ cd ../run
 ./john --test
 ```
 
-## 🚀 Usage
+## 🚀 How To Use
 
 ### Basic Commands
 
@@ -128,21 +128,6 @@ john --test --format=raw-sha256
 # bcrypt, descrypt, md5crypt, sha256crypt, sha512crypt
 ```
 
-## 📚 Tutorials
-
-### 🎥 Video Tutorials
-
-Ready to see John the Ripper in action? These video tutorials will guide you through everything from basic usage to advanced techniques:
-
-1. **"John the Ripper - Complete Beginner's Guide"**
-   - Perfect starting point for newcomers! Covers installation, basic commands, and your first successful password crack. Learn the fundamentals of dictionary attacks and how to interpret John's output.
-
-2. **"Advanced Password Cracking with John the Ripper"**
-   - Take your skills to the next level! Explores rule-based attacks, custom wordlist creation, hash format identification, and session management for long-running jobs.
-
-3. **"John the Ripper: Mask Attacks & GPU Acceleration"**
-   - Supercharge your cracking! Demonstrates how to use mask attacks for pattern-based passwords and leverage GPU power with OpenCL for massive speed improvements.
-
 ### 📖 Official Resources
 
 Want to dive deeper? Check out these trusted resources straight from the source:
@@ -198,56 +183,3 @@ Want to dive deeper? Check out these trusted resources straight from the source:
 - **Hybrid attacks**: Combine wordlist with mask or brute-force
 - **Incremental tuning**: Edit john.conf to optimize incremental mode for specific scenarios
 - **Benchmark formats**: `john --test --format=<type>` to see speed before committing
-
-### Practical Tips
-
-- **Hash identification**: Use `hash-identifier` or online tools if unsure of hash type
-- **Pot file management**: John stores cracked passwords in `john.pot` - back it up!
-- **Clean up sessions**: Remove old session files to avoid confusion
-- **Combine with other tools**: Use John for hash cracking, Hashcat for GPU power
-- **Stay legal**: Only crack passwords you have permission to test!
-- **Keep updated**: The Jumbo community version gets frequent updates with new formats
-- **Join the community**: Check out the john-users mailing list for tips and support
-
----
-
-## 🔒 Legal and Ethical Considerations
-
-**⚠️ Important Warning**: Password cracking tools like John the Ripper are powerful and must be used responsibly.
-
-### Legal Use Cases:
-- Penetration testing with explicit written authorization
-- Security audits for your own systems
-- Recovering lost passwords on your own accounts
-- Educational purposes in controlled environments
-- Security research with proper ethical approval
-
-### Illegal Activities (Never Do This!):
-- Cracking passwords without authorization
-- Accessing systems you don't own or have permission to test
-- Using cracked passwords for unauthorized access
-- Distributing cracked passwords
-
-**Remember**: Unauthorized access to computer systems is illegal in most countries and can result in serious criminal charges. Always obtain written permission before testing any system you don't own.
-
----
-
-## 🤝 Contributing
-
-John the Ripper is open-source! Want to contribute?
-- Report bugs on the mailing list
-- Submit patches for new hash formats
-- Improve documentation
-- Share optimizations and rules
-
-Visit the [Openwall community](https://www.openwall.com/lists/john-users/) to get involved!
-
----
-
-## 📜 License
-
-John the Ripper is released under the GNU General Public License (GPL) v2. The community-enhanced "Jumbo" version includes additional code under compatible licenses.
-
----
-
-*Happy (ethical) cracking! 🔓*
