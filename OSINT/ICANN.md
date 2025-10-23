@@ -1,7 +1,8 @@
 ## [ICANN Lookup](https://lookup.icann.org/en/lookup)
-Permalink: [ICANN Lookup](#icann-lookuphttpslookupicannorgenloopup)
 
 ICANN Lookup (WHOIS/RDAP) is an official domain registration data query service provided by the Internet Corporation for Assigned Names and Numbers (ICANN). This tool enables users to search domain name registration details using both the legacy WHOIS protocol and the modern Registration Data Access Protocol (RDAP). It provides real-time access to domain registrar information, ownership details, contact information, registration dates, expiration dates, and DNS server information. This makes it essential for OSINT investigations involving domain research, cybersecurity threat analysis, fraud investigation, and digital footprint analysis.
+
+---
 
 **Requirements:**
 - Web browser (Chrome, Firefox, Safari, Edge)
@@ -12,8 +13,9 @@ ICANN Lookup (WHOIS/RDAP) is an official domain registration data query service 
 1. Navigate to https://lookup.icann.org/en/lookup
 2. The tool is immediately ready to use
 
+---
+
 ## Usage Examples and Common Commands
-Permalink: [Usage Examples and Common Commands](#usage-examples-and-common-commands)
 
 **Basic Workflow:**
 1. **Enter domain name** - Type target domain (e.g., example.com)
@@ -34,8 +36,9 @@ Permalink: [Usage Examples and Common Commands](#usage-examples-and-common-comma
 - Verify domain legitimacy for security assessments
 - Monitor DNS changes and name server updates
 
+---
+
 ### Links to Official Documentation and Tutorials
-Permalink: [Links to Official Documentation and Tutorials](#links-to-official-documentation-and-tutorials)
 
 - **ICANN Lookup Tool:** https://lookup.icann.org/en/lookup
 - **ICANN WHOIS Policy:** https://www.icann.org/resources/pages/whois-2018-01-17-en
@@ -46,7 +49,6 @@ Permalink: [Links to Official Documentation and Tutorials](#links-to-official-do
 - **Registrar Lookup:** https://www.icann.org/registrar-reports/accredited-list.html
 
 ### Tips & Tricks for Competition Scenarios
-Permalink: [Tips & Tricks for Competition Scenarios](#tips--tricks-for-competition-scenarios)
 
 1. **Check multiple sources:** ICANN Lookup may show limited data due to privacy protection - cross-reference with:
    - Regional registrars (ARIN, RIPE, APNIC)
