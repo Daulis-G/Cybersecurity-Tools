@@ -4,6 +4,48 @@
 
 Binwalk is a powerful tool for searching binary files for embedded files and executable code, particularly useful for analyzing firmware images. It can identify file signatures, extract embedded content, and perform entropy analysis to detect compressed or encrypted data. Security analysts, reverse engineers, and forensic experts rely on Binwalk to dissect firmware and discover hidden components within binary files.
 
+## 🔧 How to Install Binwalk
+
+Getting Binwalk up and running is straightforward! Choose the method that works best for your system:
+
+**Linux (Ubuntu/Debian):**
+```bash
+# Using apt (recommended)
+sudo apt update
+sudo apt install binwalk
+
+# Or using pip
+pip install binwalk
+```
+
+**Linux (with dependencies for extraction):**
+```bash
+sudo apt install binwalk python3-pip
+sudo pip3 install binwalk
+```
+
+**macOS:**
+```bash
+# Using Homebrew
+brew install binwalk
+```
+
+**Windows:**
+
+Binwalk works best on Unix-like systems. For Windows users:
+- **Option 1 (WSL):** Install Windows Subsystem for Linux, then use the Linux installation method
+- **Option 2 (Docker):** Run Binwalk in a Docker container for easy setup
+
+```bash
+# Inside WSL
+sudo apt update && sudo apt install binwalk
+```
+
+**Verify Installation:**
+```bash
+binwalk --help
+```
+
 ## ⚡ Basic Usage
 
 Here are the essential Binwalk commands to get you started:
@@ -60,9 +102,7 @@ binwalk -W firmware.bin
 
 - **Binwalk GitHub Repository**: https://github.com/ReFirmLabs/binwalk
   - Source code, installation instructions, and official documentation
-
 - **Binwalk on Kali Linux Tools**: https://www.kali.org/tools/binwalk/
   - Tool overview and package information for Kali Linux users
-
 - **Binwalk Introduction Gist**: https://gist.github.com/briankip/8f8747a2488af827e3b4
   - Quick reference guide with practical examples and use cases
