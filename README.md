@@ -70,19 +70,14 @@ This repository exists to:
 
 ### Quick Start Guide
 
-```bash
-# 1. Clone this repository
-git clone https://github.com/Daulis-G/Cybersecurity-Tools.git
+## 💻 How to Use
 
-# 2. Navigate to the repository
-cd Cybersecurity-Tools
+1. **🔍 Browse** - Explore folders organized by security domain
+2. **📖 Read** - Follow the README or tool-specific markdown for setup instructions
+3. **🛠️ Practice** - Test tools in your lab environment before competitions
+4. **⭐ Star** - Bookmark this repo for quick access during CTFs
+5. **🔄 Stay Updated** - Watch for new tools and updates
 
-# 3. Browse the category you need
-cd OSINT  # or any other category
-
-# 4. Check the README in each folder for specific tool instructions
-cat README.md
-```
 
 ### 📂 What's Inside Each Folder?
 
@@ -96,19 +91,8 @@ Every category contains:
 
 ---
 
-## 💻 How to Use
-
-1. **🔍 Browse** - Explore folders organized by security domain
-2. **📖 Read** - Follow the README or tool-specific markdown for setup instructions
-3. **🛠️ Practice** - Test tools in your lab environment before competitions
-4. **⭐ Star** - Bookmark this repo for quick access during CTFs
-5. **🔄 Stay Updated** - Watch for new tools and updates
-
----
-
 ## 🤝 Collaboration & Contributions
 
-We ❤️ contributions from the community!
 
 ### How to Contribute:
 
@@ -136,22 +120,11 @@ We ❤️ contributions from the community!
 
 - [ ] 🎥 Add video tutorials for complex tools
 - [ ] 🐳 Create Docker containers for quick tool deployment
-- [ ] 📊 Add performance benchmarks for tools
 - [ ] 🗂️ Implement tagging system (beginner, intermediate, advanced)
-- [ ] 🌐 Create a searchable web interface
-- [ ] 📱 Mobile-friendly quick reference guides
 - [ ] 🎓 Add CTF writeups using these tools
 - [ ] 🔗 Integration guides for tool combinations
 
 **Have an idea?** [Open an issue](https://github.com/Daulis-G/Cybersecurity-Tools/issues/new) and let's discuss it!
-
----
-
-## 📊 Repository Stats
-
-![GitHub Stats](https://img.shields.io/github/repo-size/Daulis-G/Cybersecurity-Tools)
-![Contributors](https://img.shields.io/github/contributors/Daulis-G/Cybersecurity-Tools)
-![Pull Requests](https://img.shields.io/github/issues-pr/Daulis-G/Cybersecurity-Tools)
 
 ---
 
@@ -164,10 +137,6 @@ This project is open source and available for educational and professional use. 
 ---
 
 ### 🌟 If you find this repository helpful, please give it a star! 🌟
-
-**Happy Hacking! 🔐💻🎯**
-
-*Built with 💜 by the cybersecurity community*
 
 ---
 
