@@ -4,8 +4,6 @@ OphCrack is a Windows password cracker based on rainbow tables. It's one of the 
 ## ✨ Key Features
 - **Free and Open Source**: Available at no cost
 - **Cross-Platform**: Works on Windows, Linux, and macOS
-- **LiveCD Available**: Boot from USB/CD without installation
-- **GUI and CLI**: User-friendly interface plus command-line options
 - **Rainbow Tables**: Uses pre-computed hash chains
 - **Real-time Graphs**: Visual representation of cracking progress
   
@@ -36,7 +34,7 @@ sudo make install
 brew install ophcrack
 ```
 
-## 🎯 Usage Examples
+## 🎯 **How To Use**
 ### Basic GUI Usage
 1. Launch OphCrack
 2. Click "Load" → "PWDUMP file" or "Local SAM"
